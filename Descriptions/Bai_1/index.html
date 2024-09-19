@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="todo-container">
+        <header class="header">
+            <h1>#todo</h1>
+            <div class="tabs">
+                <button onclick="showAll()" id="tabs-all" class="tab active">All</button>
+                <button onclick="showActive()" id="tabs-active" class="tab">Active</button>
+                <button onclick="showCompleted()" id="tabs-completed" class="tab">Completed</button>
+            </div>
+        </header>
+        <div id="task-input" class="task-input">
+            <input id="tabs-add" type="text" placeholder="add details">
+            <button onclick="add()">Add</button>
+        </div>
+        <ul id="task-list" class="task-list">
+        </ul>
+        <div id="actions-delete" class="actions">
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    
+    <script type="module" src="./scripts.js">
+
+    </script>
+</body>
+</html>

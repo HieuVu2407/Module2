@@ -1,0 +1,50 @@
+.form-register{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    margin-left: 8px;
+}
+
+.container-register{
+    display: flex;
+}
+
+.container{
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.container-form{
+    width: 300px; /* Đặt chiều rộng cho form */
+    margin: auto auto; /* Căn giữa form */
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 200px;
+}
+
+#container-login{
+    margin: 8px 0px;
+    display: block;
+}
+
+.container-input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #ccc; /* Tạo viền màu xám nhạt */
+    border-radius: 20px; /* Độ cong lớn hơn */
+}
+
+.container-input + .container-input {
+    margin-top: 16px;
+}
+
+.login{
+    text-align: center;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
